@@ -1,3 +1,14 @@
+'''
+
+How the Game Works:
+1. Word Selection: The game randomly selects a word from a predefined list of words.
+2. Player Input: The player guesses one letter at a time.
+3. Word Display: After each guess, the word is displayed with guessed letters revealed and remaining letters as underscores.
+4. Incorrect Guesses: Each incorrect guess increments a counter. If the player reaches the maximum number of incorrect guesses (6), they lose.
+5. Winning Condition: If the player correctly guesses all the letters of the word before reaching the limit, they win.
+
+'''
+
 import random
 
 # List of words for the hangman game
